@@ -18,4 +18,5 @@ function appendDriver(x){
 }
 function prependDriver(x){
   const newArray = [x, ...drivers];
+  return newArray;
 }
