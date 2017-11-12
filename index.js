@@ -20,3 +20,7 @@ function prependDriver(x){
   const newArray = [x, ...drivers];
   return newArray;
 }
+function removeLastDriver(){
+    const newArray = drivers.slice(0,1);
+    return newArray;
+}
